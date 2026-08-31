@@ -1,10 +1,16 @@
-
+import { Routes, Route } from "react-router-dom";
+import { Home, NotFound } from "./pages/buyer";
+import BuyerLayout from "./components/buyer/Layout";
 
 const App = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Hy there</h1>
-        </div>
+        <Routes>
+            <Route element={<BuyerLayout />}>
+                <Route path="/" element={<Home />} />
+            </Route>
+
+            <Route path="*" element={<NotFound />} />
+        </Routes>
     );
 };
 
