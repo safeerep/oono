@@ -4,7 +4,7 @@ const processSteps = [
     {
         step: "01",
         title: "Morning Home Pickup",
-        description: "Our agent collects the packed lunchbox right from your doorstep between 7:30 AM – 9:00 AM.",
+        description: "Our agent collects the packed lunchbox right from your doorstep between 7:30 AM - 11:00 AM.",
         icon: "🏠",
     },
     {
