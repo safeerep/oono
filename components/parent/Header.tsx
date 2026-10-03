@@ -14,11 +14,11 @@ const Header = () => {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-6 text-sm font-semibold">
-                    <Link href="/track" className="transition hover:text-[#ff5a36]">Track Lunch</Link>
-                    <Link href="/schools" className="transition hover:text-[#ff5a36]">Coverage</Link>
+                    {/* <Link href="/track" className="transition hover:text-[#ff5a36]">Track Lunch</Link> */}
+                    {/* <Link href="/schools" className="transition hover:text-[#ff5a36]">Coverage</Link> */}
                     <Link
-                        href="/login"
-                        className="rounded-xl bg-[#171717] px-4 py-2 text-white transition hover:bg-[#ff5a36]"
+                        href="/"
+                        className="rounded-xl transition p-2 hover:bg-[#ff5a36]"
                     >
                         Parent Portal
                     </Link>
